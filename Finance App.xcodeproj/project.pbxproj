@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE8008002BB6134600012238 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE8007FF2BB6134600012238 /* image1.jpg */; };
+		CE8008022BB6AA9300012238 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8008012BB6AA9300012238 /* logo.png */; };
 		CED99AAE2BB5FC0E0071055A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED99AAD2BB5FC0E0071055A /* AppDelegate.swift */; };
 		CED99AB02BB5FC0E0071055A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED99AAF2BB5FC0E0071055A /* SceneDelegate.swift */; };
 		CED99AB22BB5FC0E0071055A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED99AB12BB5FC0E0071055A /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE8007FF2BB6134600012238 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image1.jpg; path = ../../../image1.jpg; sourceTree = "<group>"; };
+		CE8008012BB6AA9300012238 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../logo.png; sourceTree = "<group>"; };
 		CED99AAA2BB5FC0E0071055A /* Finance App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Finance App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED99AAD2BB5FC0E0071055A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CED99AAF2BB5FC0E0071055A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				CED99AAD2BB5FC0E0071055A /* AppDelegate.swift */,
 				CED99AAF2BB5FC0E0071055A /* SceneDelegate.swift */,
 				CED99AB12BB5FC0E0071055A /* ViewController.swift */,
+				CE8007FF2BB6134600012238 /* image1.jpg */,
+				CE8008012BB6AA9300012238 /* logo.png */,
 				CED99AB32BB5FC0E0071055A /* Main.storyboard */,
 				CED99AB62BB5FC100071055A /* Assets.xcassets */,
 				CED99AB82BB5FC100071055A /* LaunchScreen.storyboard */,
@@ -126,6 +132,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CED99AB72BB5FC100071055A /* Assets.xcassets in Resources */,
+				CE8008022BB6AA9300012238 /* logo.png in Resources */,
+				CE8008002BB6134600012238 /* image1.jpg in Resources */,
 				CED99ABA2BB5FC100071055A /* Base in Resources */,
 				CED99AB52BB5FC0E0071055A /* Base in Resources */,
 			);
