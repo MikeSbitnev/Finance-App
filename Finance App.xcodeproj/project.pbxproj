@@ -8,7 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		CE8008002BB6134600012238 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE8007FF2BB6134600012238 /* image1.jpg */; };
-		CE8008022BB6AA9300012238 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8008012BB6AA9300012238 /* logo.png */; };
+		CE8008062BB6B99400012238 /* Onboarding1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8008052BB6B99400012238 /* Onboarding1.swift */; };
+		CE80080F2BB6FBC400012238 /* Onboarding2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE80080E2BB6FBC400012238 /* Onboarding2.swift */; };
+		CE80081A2BB7023700012238 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8008152BB7023700012238 /* logo.png */; };
+		CE80081B2BB7023700012238 /* Onboarding1.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8008162BB7023700012238 /* Onboarding1.png */; };
+		CE80081C2BB7023700012238 /* Onboarding2.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8008172BB7023700012238 /* Onboarding2.png */; };
+		CE80081D2BB7023700012238 /* Onboarding3.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8008182BB7023700012238 /* Onboarding3.png */; };
+		CE80081F2BB7026B00012238 /* Onboarding3.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE80081E2BB7026B00012238 /* Onboarding3.swift */; };
+		CE8008212BB8A34500012238 /* SignUpDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8008202BB8A34500012238 /* SignUpDefault.swift */; };
+		CE8008252BB8AB3500012238 /* apple-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8008242BB8AB3500012238 /* apple-logo.png */; };
+		CE8008272BB8ABB700012238 /* google-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8008262BB8ABB700012238 /* google-logo.png */; };
 		CED99AAE2BB5FC0E0071055A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED99AAD2BB5FC0E0071055A /* AppDelegate.swift */; };
 		CED99AB02BB5FC0E0071055A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED99AAF2BB5FC0E0071055A /* SceneDelegate.swift */; };
 		CED99AB22BB5FC0E0071055A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED99AB12BB5FC0E0071055A /* ViewController.swift */; };
@@ -19,7 +28,16 @@
 
 /* Begin PBXFileReference section */
 		CE8007FF2BB6134600012238 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image1.jpg; path = ../../../image1.jpg; sourceTree = "<group>"; };
-		CE8008012BB6AA9300012238 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../logo.png; sourceTree = "<group>"; };
+		CE8008052BB6B99400012238 /* Onboarding1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding1.swift; sourceTree = "<group>"; };
+		CE80080E2BB6FBC400012238 /* Onboarding2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding2.swift; sourceTree = "<group>"; };
+		CE8008152BB7023700012238 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		CE8008162BB7023700012238 /* Onboarding1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Onboarding1.png; sourceTree = "<group>"; };
+		CE8008172BB7023700012238 /* Onboarding2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Onboarding2.png; sourceTree = "<group>"; };
+		CE8008182BB7023700012238 /* Onboarding3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Onboarding3.png; sourceTree = "<group>"; };
+		CE80081E2BB7026B00012238 /* Onboarding3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding3.swift; sourceTree = "<group>"; };
+		CE8008202BB8A34500012238 /* SignUpDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpDefault.swift; sourceTree = "<group>"; };
+		CE8008242BB8AB3500012238 /* apple-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "apple-logo.png"; path = "../../Downloads/apple-logo.png"; sourceTree = "<group>"; };
+		CE8008262BB8ABB700012238 /* google-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "google-logo.png"; path = "../../Downloads/google-logo.png"; sourceTree = "<group>"; };
 		CED99AAA2BB5FC0E0071055A /* Finance App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Finance App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED99AAD2BB5FC0E0071055A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CED99AAF2BB5FC0E0071055A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +59,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE8008192BB7023700012238 /* Finance App Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				CE8008262BB8ABB700012238 /* google-logo.png */,
+				CE8008242BB8AB3500012238 /* apple-logo.png */,
+				CE8008152BB7023700012238 /* logo.png */,
+				CE8008162BB7023700012238 /* Onboarding1.png */,
+				CE8008172BB7023700012238 /* Onboarding2.png */,
+				CE8008182BB7023700012238 /* Onboarding3.png */,
+			);
+			name = "Finance App Pictures";
+			path = "../../../Finance App Pictures";
+			sourceTree = "<group>";
+		};
 		CED99AA12BB5FC0E0071055A = {
 			isa = PBXGroup;
 			children = (
@@ -62,9 +94,13 @@
 			children = (
 				CED99AAD2BB5FC0E0071055A /* AppDelegate.swift */,
 				CED99AAF2BB5FC0E0071055A /* SceneDelegate.swift */,
+				CE8008202BB8A34500012238 /* SignUpDefault.swift */,
 				CED99AB12BB5FC0E0071055A /* ViewController.swift */,
+				CE8008052BB6B99400012238 /* Onboarding1.swift */,
+				CE80080E2BB6FBC400012238 /* Onboarding2.swift */,
+				CE80081E2BB7026B00012238 /* Onboarding3.swift */,
+				CE8008192BB7023700012238 /* Finance App Pictures */,
 				CE8007FF2BB6134600012238 /* image1.jpg */,
-				CE8008012BB6AA9300012238 /* logo.png */,
 				CED99AB32BB5FC0E0071055A /* Main.storyboard */,
 				CED99AB62BB5FC100071055A /* Assets.xcassets */,
 				CED99AB82BB5FC100071055A /* LaunchScreen.storyboard */,
@@ -131,9 +167,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE80081D2BB7023700012238 /* Onboarding3.png in Resources */,
+				CE80081B2BB7023700012238 /* Onboarding1.png in Resources */,
 				CED99AB72BB5FC100071055A /* Assets.xcassets in Resources */,
-				CE8008022BB6AA9300012238 /* logo.png in Resources */,
+				CE8008272BB8ABB700012238 /* google-logo.png in Resources */,
+				CE80081A2BB7023700012238 /* logo.png in Resources */,
+				CE80081C2BB7023700012238 /* Onboarding2.png in Resources */,
 				CE8008002BB6134600012238 /* image1.jpg in Resources */,
+				CE8008252BB8AB3500012238 /* apple-logo.png in Resources */,
 				CED99ABA2BB5FC100071055A /* Base in Resources */,
 				CED99AB52BB5FC0E0071055A /* Base in Resources */,
 			);
@@ -146,7 +187,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE80081F2BB7026B00012238 /* Onboarding3.swift in Sources */,
+				CE8008062BB6B99400012238 /* Onboarding1.swift in Sources */,
+				CE8008212BB8A34500012238 /* SignUpDefault.swift in Sources */,
 				CED99AB22BB5FC0E0071055A /* ViewController.swift in Sources */,
+				CE80080F2BB6FBC400012238 /* Onboarding2.swift in Sources */,
 				CED99AAE2BB5FC0E0071055A /* AppDelegate.swift in Sources */,
 				CED99AB02BB5FC0E0071055A /* SceneDelegate.swift in Sources */,
 			);

@@ -39,6 +39,22 @@ enum GradientColors {
 }
 
 class CustomView: UIView {
+   var navigationController: UINavigationController?
+   
+   override init(frame: CGRect) {
+      super.init(frame: frame)
+      commonInit()
+   }
+   
+   required init?(coder aDecoder: NSCoder) {
+      super.init(coder: aDecoder)
+      commonInit()
+   }
+   
+   private func commonInit() {
+      self.isUserInteractionEnabled = true
+   }
+   
    override func draw(_ rect: CGRect) {
       super.draw(rect)
       
@@ -69,9 +85,21 @@ class CustomView: UIView {
       addSubview(imageView)
       
    }
+   
+   
+   override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+      super.touchesEnded(touches, with: event)
+      
+      // Print message to console
+      print("Screen tapped!")
+      
+
+      if let navigationController = self.navigationController {
+         let anotherViewController = Onboarding1()
+         navigationController.pushViewController(anotherViewController, animated: true)
+      }
+   }
 }
-
-
 
 class ViewController: UIViewController {
     override func viewDidLoad() {
@@ -79,32 +107,10 @@ class ViewController: UIViewController {
 
         let customView = CustomView(frame: view.bounds)
         customView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        customView.navigationController = self.navigationController
         view.addSubview(customView)
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
