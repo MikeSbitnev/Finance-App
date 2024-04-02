@@ -19,7 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
       guard let windowScene = (scene as? UIWindowScene) else { return }
       
       // Create a navigation controller with the initial view controller as its root
-      let initialViewController = ViewController()
+      let initialViewController = Homepage()
       let navigationController = UINavigationController(rootViewController: initialViewController)
       
       // Set the navigation controller as the root view controller of the window

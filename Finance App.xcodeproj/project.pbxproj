@@ -16,8 +16,6 @@
 		CE80081D2BB7023700012238 /* Onboarding3.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8008182BB7023700012238 /* Onboarding3.png */; };
 		CE80081F2BB7026B00012238 /* Onboarding3.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE80081E2BB7026B00012238 /* Onboarding3.swift */; };
 		CE8008212BB8A34500012238 /* SignUpDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8008202BB8A34500012238 /* SignUpDefault.swift */; };
-		CE8008252BB8AB3500012238 /* apple-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8008242BB8AB3500012238 /* apple-logo.png */; };
-		CE8008272BB8ABB700012238 /* google-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8008262BB8ABB700012238 /* google-logo.png */; };
 		CE8008422BBB573F00012238 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE80082C2BBB573F00012238 /* OFL.txt */; };
 		CE8008432BBB573F00012238 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE80082D2BBB573F00012238 /* Poppins-Black.ttf */; };
 		CE8008442BBB573F00012238 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE80082E2BBB573F00012238 /* Poppins-BlackItalic.ttf */; };
@@ -38,6 +36,12 @@
 		CE8008532BBB573F00012238 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE80083D2BBB573F00012238 /* Poppins-Thin.ttf */; };
 		CE8008542BBB573F00012238 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE80083E2BBB573F00012238 /* Poppins-ThinItalic.ttf */; };
 		CE8008552BBB573F00012238 /* Poppins-1.zip in Resources */ = {isa = PBXBuildFile; fileRef = CE8008402BBB573F00012238 /* Poppins-1.zip */; };
+		CE8008572BBB68D700012238 /* Homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8008562BBB68D700012238 /* Homepage.swift */; };
+		CE8008592BBBE00900012238 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8008582BBBE00900012238 /* Test.swift */; };
+		CE80085B2BBC1DE700012238 /* Desireless - Voyage, Voyage.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE80085A2BBC1DE700012238 /* Desireless - Voyage, Voyage.mp3 */; };
+		CE80085D2BBCA68C00012238 /* apple-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CE80085C2BBCA68C00012238 /* apple-logo.png */; };
+		CE80085F2BBCAB0A00012238 /* google-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CE80085E2BBCAB0A00012238 /* google-logo.png */; };
+		CE8008612BBCB26100012238 /* WelcomebackDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8008602BBCB26100012238 /* WelcomebackDefault.swift */; };
 		CED99AAE2BB5FC0E0071055A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED99AAD2BB5FC0E0071055A /* AppDelegate.swift */; };
 		CED99AB02BB5FC0E0071055A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED99AAF2BB5FC0E0071055A /* SceneDelegate.swift */; };
 		CED99AB22BB5FC0E0071055A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED99AB12BB5FC0E0071055A /* ViewController.swift */; };
@@ -56,8 +60,6 @@
 		CE8008182BB7023700012238 /* Onboarding3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Onboarding3.png; sourceTree = "<group>"; };
 		CE80081E2BB7026B00012238 /* Onboarding3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding3.swift; sourceTree = "<group>"; };
 		CE8008202BB8A34500012238 /* SignUpDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpDefault.swift; sourceTree = "<group>"; };
-		CE8008242BB8AB3500012238 /* apple-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "apple-logo.png"; path = "../../Downloads/apple-logo.png"; sourceTree = "<group>"; };
-		CE8008262BB8ABB700012238 /* google-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "google-logo.png"; path = "../../Downloads/google-logo.png"; sourceTree = "<group>"; };
 		CE80082C2BBB573F00012238 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		CE80082D2BBB573F00012238 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
 		CE80082E2BBB573F00012238 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
@@ -78,6 +80,12 @@
 		CE80083D2BBB573F00012238 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
 		CE80083E2BBB573F00012238 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
 		CE8008402BBB573F00012238 /* Poppins-1.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "Poppins-1.zip"; sourceTree = "<group>"; };
+		CE8008562BBB68D700012238 /* Homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homepage.swift; sourceTree = "<group>"; };
+		CE8008582BBBE00900012238 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		CE80085A2BBC1DE700012238 /* Desireless - Voyage, Voyage.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Desireless - Voyage, Voyage.mp3"; path = "../../../Desireless - Voyage, Voyage.mp3"; sourceTree = "<group>"; };
+		CE80085C2BBCA68C00012238 /* apple-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "apple-logo.png"; path = "../../Downloads/apple-logo.png"; sourceTree = "<group>"; };
+		CE80085E2BBCAB0A00012238 /* google-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "google-logo.png"; path = "../../Downloads/google-logo.png"; sourceTree = "<group>"; };
+		CE8008602BBCB26100012238 /* WelcomebackDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomebackDefault.swift; sourceTree = "<group>"; };
 		CED99AAA2BB5FC0E0071055A /* Finance App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Finance App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED99AAD2BB5FC0E0071055A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CED99AAF2BB5FC0E0071055A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,8 +110,8 @@
 		CE8008192BB7023700012238 /* Finance App Pictures */ = {
 			isa = PBXGroup;
 			children = (
-				CE8008262BB8ABB700012238 /* google-logo.png */,
-				CE8008242BB8AB3500012238 /* apple-logo.png */,
+				CE80085E2BBCAB0A00012238 /* google-logo.png */,
+				CE80085C2BBCA68C00012238 /* apple-logo.png */,
 				CE8008152BB7023700012238 /* logo.png */,
 				CE8008162BB7023700012238 /* Onboarding1.png */,
 				CE8008172BB7023700012238 /* Onboarding2.png */,
@@ -170,7 +178,10 @@
 			children = (
 				CED99AAD2BB5FC0E0071055A /* AppDelegate.swift */,
 				CED99AAF2BB5FC0E0071055A /* SceneDelegate.swift */,
+				CE8008562BBB68D700012238 /* Homepage.swift */,
+				CE8008582BBBE00900012238 /* Test.swift */,
 				CE8008202BB8A34500012238 /* SignUpDefault.swift */,
+				CE8008602BBCB26100012238 /* WelcomebackDefault.swift */,
 				CED99AB12BB5FC0E0071055A /* ViewController.swift */,
 				CE8008052BB6B99400012238 /* Onboarding1.swift */,
 				CE80080E2BB6FBC400012238 /* Onboarding2.swift */,
@@ -178,6 +189,7 @@
 				CE8008412BBB573F00012238 /* Fonts */,
 				CE8008192BB7023700012238 /* Finance App Pictures */,
 				CE8007FF2BB6134600012238 /* image1.jpg */,
+				CE80085A2BBC1DE700012238 /* Desireless - Voyage, Voyage.mp3 */,
 				CED99AB32BB5FC0E0071055A /* Main.storyboard */,
 				CED99AB62BB5FC100071055A /* Assets.xcassets */,
 				CED99AB82BB5FC100071055A /* LaunchScreen.storyboard */,
@@ -245,7 +257,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE8008432BBB573F00012238 /* Poppins-Black.ttf in Resources */,
+				CE80085F2BBCAB0A00012238 /* google-logo.png in Resources */,
 				CE8008532BBB573F00012238 /* Poppins-Thin.ttf in Resources */,
+				CE80085B2BBC1DE700012238 /* Desireless - Voyage, Voyage.mp3 in Resources */,
 				CE80084F2BBB573F00012238 /* Poppins-MediumItalic.ttf in Resources */,
 				CE8008542BBB573F00012238 /* Poppins-ThinItalic.ttf in Resources */,
 				CE8008442BBB573F00012238 /* Poppins-BlackItalic.ttf in Resources */,
@@ -257,7 +271,6 @@
 				CE80081B2BB7023700012238 /* Onboarding1.png in Resources */,
 				CED99AB72BB5FC100071055A /* Assets.xcassets in Resources */,
 				CE80084C2BBB573F00012238 /* Poppins-Light.ttf in Resources */,
-				CE8008272BB8ABB700012238 /* google-logo.png in Resources */,
 				CE80081A2BB7023700012238 /* logo.png in Resources */,
 				CE80081C2BB7023700012238 /* Onboarding2.png in Resources */,
 				CE8008462BBB573F00012238 /* Poppins-BoldItalic.ttf in Resources */,
@@ -267,13 +280,13 @@
 				CE8008512BBB573F00012238 /* Poppins-SemiBold.ttf in Resources */,
 				CE80084E2BBB573F00012238 /* Poppins-Medium.ttf in Resources */,
 				CE8008472BBB573F00012238 /* Poppins-ExtraBold.ttf in Resources */,
-				CE8008252BB8AB3500012238 /* apple-logo.png in Resources */,
 				CED99ABA2BB5FC100071055A /* Base in Resources */,
 				CED99AB52BB5FC0E0071055A /* Base in Resources */,
 				CE80084B2BBB573F00012238 /* Poppins-Italic.ttf in Resources */,
 				CE8008552BBB573F00012238 /* Poppins-1.zip in Resources */,
 				CE8008482BBB573F00012238 /* Poppins-ExtraBoldItalic.ttf in Resources */,
 				CE80084D2BBB573F00012238 /* Poppins-LightItalic.ttf in Resources */,
+				CE80085D2BBCA68C00012238 /* apple-logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,11 +299,14 @@
 			files = (
 				CE80081F2BB7026B00012238 /* Onboarding3.swift in Sources */,
 				CE8008062BB6B99400012238 /* Onboarding1.swift in Sources */,
+				CE8008592BBBE00900012238 /* Test.swift in Sources */,
 				CE8008212BB8A34500012238 /* SignUpDefault.swift in Sources */,
 				CED99AB22BB5FC0E0071055A /* ViewController.swift in Sources */,
+				CE8008612BBCB26100012238 /* WelcomebackDefault.swift in Sources */,
 				CE80080F2BB6FBC400012238 /* Onboarding2.swift in Sources */,
 				CED99AAE2BB5FC0E0071055A /* AppDelegate.swift in Sources */,
 				CED99AB02BB5FC0E0071055A /* SceneDelegate.swift in Sources */,
+				CE8008572BBB68D700012238 /* Homepage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
